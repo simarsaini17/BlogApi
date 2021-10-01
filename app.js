@@ -5,7 +5,7 @@ const app = express();
 const port = 4000;
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://GursimratKaur:9XTEYWvm0Usle0n8@cluster1.t93pi.mongodb.net/blogger?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://****@cluster1.t93pi.mongodb.net/blogger?retryWrites=true&w=majority")
 mongoose.connection.once('open', () => {
     console.log('connected');
 })
